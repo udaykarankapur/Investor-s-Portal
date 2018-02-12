@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<title>Investors Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="ourcss.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-blue-grey">
+    <div class="w3-col s13">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s13">
+      <a href="#plans" class="w3-button w3-block">Plans</a>
+    </div>
+    <div class="w3-col s13">
+      <a href="#about" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s13">
+      <a href="#contact" class="w3-button w3-block">Contact</a>
+    </div>
+    <div class="w3-col s13">
+      <a href="login.html" class="w3-button w3-block">Login</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>INVESTOR'S PORTAL</h1>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="1.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-black w3-padding-large w3-animate-bottom">Pitch Your Ideas</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="2.jpg" style="width:100%">
+      <div class="w3-display-topmiddle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Market your Product</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="3.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-blue-grey w3-padding-large w3-animate-bottom">Invest in Startups</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-blue-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Pitch</h3>
+      <p>Pitch your ideas directly to the world on our platform. Show the world what potential your startup has got.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-blue-grey w3-container w3-padding-16">
+      <h3>Branding</h3>
+      <p>Make your startup a <b>BRAND</b> that's known to the whole world and is one of the trendy hot topic in the tech community.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Consultation</h3>
+      <p>Get consultation from the professionals out there to help you with making a brand out of your startup.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Marketing</h3>
+      <p>We have also got marketing options for our clients to make their product out reach to new potential customers.</p>
+    </div>
+  </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Do</span>
+    </div>
+  </div>
+  <div class="w3-col.m10 w3-blue-grey w3-container w3-padding-16 w3-center w3-margin-bottom"><p>
+    <b>Investor's Portal&trade;</b> is place for interaction between young entrepreneurs who has just founded a startup and need funding and the investors.<br>
+    Here anyone could register (see <a href="#plans">pricing plans</a>) and pitch their startup ideas and get the funding from the investors.<br>
+    We also offer options for <b>Branding</b> and <b>Marketing</b> of our client's product.<br>
+    For <b>Branding</b> we offer our services and do whatever we can and to our full potential to make our client's startup a <b>BRAND</b> in itself and standout in front of the competition.<br>
+    By <b>Marketing</b> the product for our customers we ensure that their product reaches to the maximum amount of customers as for the client to be sustained on their business model. We create the customer base for our clients, and even after they are emerged out as a megacorp of their own they would be because of their initial customer base that we created.<br>
+    We provide 24/7 <b>Consultation</b> (see <a href="#plans">pricing plans</a>) for any consultation that might we needed by our clients at the very moment. We have hired professional consultants which offer their services on the field of Tech, Marketing, Business, Managment, Finance, any many more related fields and are there 24/7 to support our clients.<br>
+    </p>
+    <p>For further details our queries <a href="#contact">Contact Us</a> and please do signup and become our client if you do have a startup and are struggling with getting funding.</p>
+  </div>
+
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+  <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-border-dark-grey w3-padding-16">Pricing Plans</span>
+      <p class="w3-center w3-bottombar w3-padding-16">Choose a pricing plan that fits your needs.</p>
+    </div>
+    <div class="w3-center w3-padding-64">
+      <h3>Pricing Plans</h3>
+      
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>2-3</b> Investors Reach Per Day</li>
+        <li class="w3-padding-16"><b>1 GB</b> Storage for Documents</li>
+        <li class="w3-padding-16"><b>100 People</b> Reached to product</li>
+        <li class="w3-padding-16"><b>ONLY office hours</b> Consultation</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="signup.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-blue-grey w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16"><b>5-10</b> Investors Reach Per Day</li>
+        <li class="w3-padding-16"><b>3 GB</b> Storage for Documents</li>
+        <li class="w3-padding-16"><b>500-1000 People</b> Reached to Product</li>
+        <li class="w3-padding-16"><b>24 Hours on Weekdays</b> Consultation</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="signup.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>10-15</b> Investors Reach Per Day</li>
+        <li class="w3-padding-16"><b> 5 GB</b> Storage for Documents</li>
+        <li class="w3-padding-16"><b> 1000-5000 People</b> Reached to product</li>
+        <li class="w3-padding-16"><b>Anytime priority</b> Consultation</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><a href="signup.html">Sign Up</a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Send</button>
+  </form>
+
+<div class="w3-center w3-padding-32">
+      <h3>Are you an Investor?</h3><br>
+      <h4>Then contact us by filling the form below</h4><br>
+      <h4>We would reach out to you</h4>
+
+      
+    </div>
+
+<form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Company Name</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Representative Name</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" name="Designation" type="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Representative Email</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Contact number</label>
+      <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" name="Contact_number" type="text" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Send</button>
+  </form>
+
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center">
+  <h4>Find us on</h4>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+  <h5>Disclamer-</h5><h6> We only act as an agent to find potential startups for Investors and we are not responsible for any deal cancellation or alteration.<br>
+  Our reach to the marketing targets are subject to the market climate and may not be 100% accurate.<br>
+  Pricing of the plans we offer may get infalted.</h6>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Go to TOP</a>
+</footer>
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
